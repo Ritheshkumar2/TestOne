@@ -20,6 +20,7 @@ public class MainClass extends BaseClass{
 		setUpDriver();
 		driver=BaseClass.getDriver();
 		driver.get("https://www.google.com/");
+		//browser related
 	}
 	
 	@Test(retryAnalyzer=listeners.RetryMechanism.class)
