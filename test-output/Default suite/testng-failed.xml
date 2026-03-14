@@ -3,6 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="baseonelearnings.DataProviderRelated">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- baseonelearnings.DataProviderRelated -->
       <class name="test.MainClass">
         <methods>
           <include name="teardown"/>
